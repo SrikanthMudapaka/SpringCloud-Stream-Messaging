@@ -23,7 +23,7 @@ if you want to use #RabbitMQ change the dependency from kafka to RabbitMq , in p
   kafka-server-start.bat ../../config/server.properties
   
 # Create Topic
-  kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 -topic prodcon
+  kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 3 --partitions 1 -topic prodcon
   
 # view All Available Topics :->
   kafka-topics.bat --list --zookeeper localhost:2181
