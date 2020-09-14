@@ -4,8 +4,15 @@ Its a Spring Cloud Streaming example where one can use any Message Queuing techn
 HERE , i Used KAfka ,for submitting a message on to a Topic(name: prodcon) and
 consume it from another Consumer Application who is listening to the Stream 
 with a relication factor of 1.
+#
 JAVA version : 11.0.6 
 kafka 2.13-2.5.0
+#
+if you want to use #RabbitMQ change the dependency from kafka to RabbitMq.
+<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-stream-binder-kafka</artifactId>
+		</dependency>
 
 # kafka commands
   Commands used for developing.
