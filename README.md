@@ -10,7 +10,7 @@ kafka 2.13-2.5.0
 #
 if you want to use #RabbitMQ change the dependency from kafka to RabbitMq.
 #
-   <dependency>
+  " <dependency>"
 	<groupId>org.springframework.cloud</groupId>
 	<artifactId>spring-cloud-stream-binder-kafka</artifactId>
    </dependency>
